@@ -52,7 +52,7 @@ rootness(){
     if [[ $EUID -ne 0 ]]; then
         fun_clang.cn
         echo "Error:This script must be run as root!" 1>&2
-        exit 1
+        # exit 1
     fi
 }
 

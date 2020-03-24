@@ -10,8 +10,8 @@ Server
 
 ### Install
 
-    wget --no-check-certificate https://github.com/clangcn/game-server/raw/master/install-game-server.sh -O ./install-game-server.sh
-    chmod 500 ./install-game-server.sh
+    wget --no-check-certificate https://github.com/JohnWong/game-server/raw/master/install-game-server.sh -O ./install-game-server.sh
+    chmod 700 ./install-game-server.sh
     ./install-game-server.sh install
 
 ### UnInstall
